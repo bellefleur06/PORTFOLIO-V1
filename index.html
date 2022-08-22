@@ -14,10 +14,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
-    <link
+    <!-- <link
       href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
       rel="stylesheet"
-    />
+    /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
@@ -62,13 +63,13 @@
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
           <div>
-              <h1>Patrick Ail B. Bandola</h1>
-            <h2 class="mb-3"><span class="text-warning"> Web Developer </span></h2>
+              <h1 data-aos="fade-right" data-aos-duration="2000">Patrick Ail B. Bandola</h1>
+            <h2 data-aos="fade-left" data-aos-duration="2000" class="mb-3"><span class="text-warning"> Web Developer </span></h2>
             <!-- <p class="lead my-4">
               We focus on teaching our students the fundamentals of the latest
               and greatest technologies to prepare them for their first dev role
             </p> -->
-            <button
+            <button data-aos="fade-up" data-aos-duration="2000"
               class="btn btn-primary btn-lg"
               data-bs-toggle="modal"
               data-bs-target="#enroll"
@@ -76,7 +77,7 @@
               Contact Me
             </button>
           </div>
-          <img
+          <img data-aos="fade-left" data-aos-duration="2000"
             class="img-fluid w-50 mb-5 d-none d-sm-block"
             src="img/gradpic1.jpeg"
             alt=""
@@ -90,17 +91,17 @@
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
-            <img src="img/gradpic2.jpeg" class="img-fluid" alt="" />
+            <img data-aos="fade-right" data-aos-duration="2000" src="img/gradpic2.jpeg" class="img-fluid" alt="" />
           </div>
           <div class="col-md p-5">
-            <h2>Patrick Ail B. Bandola</h2>
-            <p class="lead">
+            <h2 data-aos="fade-left" data-aos-duration="2000">Patrick Ail B. Bandola</h2>
+            <p data-aos="fade-right" data-aos-duration="1000" class="lead">
               A 4th Year BSIT Student from the Polytechnic University of the Philippines San Pedro Campus.
             </p>
-            <p>
+            <p data-aos="fade-right" data-aos-duration="2000">
               Studying Web Development and Web Design. Knowledgeable in HTML, CSS, JavaScript, JQuery, Bootstrap, PHP and MYSQL.
             </p>
-            <a href="#readmore" class="btn btn-light mt-3">
+            <a data-aos="fade-down" data-aos-duration="2000" download href="cv.pdf" class="btn btn-light mt-3">
               <i class="bi bi-chevron-right"></i> Download My CV
             </a>
           </div>
@@ -111,8 +112,8 @@
     <!-- Question Accordion -->
     <section id="readmore" class="p-5 bg-dark">
       <div class="container">
-        <h2 class="text-center mb-4 text-light">About Me</h2>          
-        <div class="accordion accordion-flush" id="questions">
+        <h2 data-aos="fade-down" data-aos-duration="1500" class="text-center mb-4 text-light">About Me</h2>          
+        <div data-aos="fade-up" data-aos-duration="1000" class="accordion accordion-flush" id="questions">
           <!-- Item 1 -->
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -260,10 +261,10 @@
     <!-- Boxes -->
     <section id="project" class="p-5">
       <div class="container">
-          <h2 class="text-center mb-4">Projects</h2>
+          <h2 data-aos="fade-up" data-aos-duration="3000" class="text-center mb-4">Projects</h2>
         <div class="row text-center g-4">
           <div class="col-md-4">
-            <div class="card bg-dark text-light">
+            <div data-aos="fade-down" data-aos-duration="1000" class="card bg-dark text-light">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-laptop"></i>
@@ -277,7 +278,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card bg-secondary text-light">
+            <div data-aos="fade-down" data-aos-duration="1500" class="card bg-secondary text-light">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-person-square"></i>
@@ -291,7 +292,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card bg-dark text-light">
+            <div data-aos="fade-down" data-aos-duration="2000" class="card bg-dark text-light">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-people"></i>
@@ -305,7 +306,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card bg-secondary text-light">
+            <div data-aos="fade-down" data-aos-duration="1000" class="card bg-secondary text-light">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-laptop"></i>
@@ -324,13 +325,13 @@
 
     <section id="techstacks" class="p-5 bg-dark">
       <div class="container">
-        <h2 class="text-center text-white">Tech Stacks</h2>
-        <p class="lead text-center text-white mb-5">
+        <h2 data-aos="fade-down" data-aos-duration="1500" class="text-center text-white">Tech Stacks</h2>
+        <p data-aos="fade-down" data-aos-duration="1000" class="lead text-center text-white mb-5">
           Technologies I know and use in Web Development and Web Design.
         </p>
         <div class="row g-4">
           <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
+            <div data-aos="fade-up" data-aos-duration="1000" class="card bg-light">
               <div class="card-body text-center">
                 <img
                   src="img/html5-logo.png"
@@ -343,7 +344,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
+            <div data-aos="fade-up" data-aos-duration="1250" class="card bg-light">
               <div class="card-body text-center">
                 <img
                   src="img/css-3-logo.png"
@@ -356,7 +357,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
+            <div data-aos="fade-up" data-aos-duration="1500" class="card bg-light">
               <div class="card-body text-center">
                 <img
                   src="img/javascript-logo.png"
@@ -369,7 +370,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
+            <div data-aos="fade-up" data-aos-duration="1750" class="card bg-light">
               <div class="card-body text-center">
                 <img
                   src="img/jquery-logo.png"
@@ -382,7 +383,7 @@
           </div>
           
           <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
+            <div data-aos="fade-up" data-aos-duration="1000" class="card bg-light">
               <div class="card-body text-center">
                 <img
                   src="img/bootstrap-logo.png"
@@ -395,7 +396,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
+            <div data-aos="fade-up" data-aos-duration="1250" class="card bg-light">
               <div class="card-body text-center">
                 <img
                   src="img/php-logo.png"
@@ -408,7 +409,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="card bg-light">
+            <div data-aos="fade-up" data-aos-duration="1500" class="card bg-light">
               <div class="card-body text-center">
                 <img
                   src="img/mysql-logo.png"
@@ -428,27 +429,27 @@
       <div class="container">
         <div class="row g-4">
           <div class="col-md">
-            <h2 class="text-center mb-4">Contact Info</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1500" class="text-center mb-4">Contact Info</h2>
             <ul class="list-group list-group-flush lead">
-              <li class="list-group-item">
+              <li data-aos="fade-right" data-aos-duration="1000" class="list-group-item">
                 <span class="fw-bold">Address:</span> 865 M. Aquino St. Purok 5 Brgy. Magsaysay, San Pedro City, Laguna
               </li>
-              <li class="list-group-item">
+              <li data-aos="fade-right" data-aos-duration="1250" class="list-group-item">
                 <span class="fw-bold">Contact Number:</span> 09503638031
               </li>
-              <li class="list-group-item">
+              <li data-aos="fade-right" data-aos-duration="1500" class="list-group-item">
                 <span class="fw-bold"> Personal Email:</span> pbandola06@gmail.com
               </li>
-              <li class="list-group-item">
+              <li data-aos="fade-right" data-aos-duration="1750" class="list-group-item">
                 <span class="fw-bold">Github Account:</span> https://github.com/bellefleur06
               </li>
-              <li class="list-group-item">
+              <li data-aos="fade-right" data-aos-duration="2000" class="list-group-item">
                 <span class="fw-bold">LinkedIn Account:</span> https://www.linkedin.com/in/patrick-ail-bandola-520284242/
               </li> 
             </ul>
           </div>
           <div class="col-md">
-            <div id="map">
+            <div data-aos="fade-left" data-aos-duration="2000" id="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30922.802530579735!2d121.02359649852484!3d14.349127081311128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d0d6c63526c5%3A0xd6e9ae89984e851e!2sSan%20Pedro%2C%20Laguna!5e0!3m2!1sen!2sph!4v1661152612832!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
@@ -545,6 +546,12 @@
         message => alert("Thank you for sending your message. I will get back to you as soon as possible.")
       );
       }
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
     </script>
 
     <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
