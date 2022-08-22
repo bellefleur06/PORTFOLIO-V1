@@ -1,2 +1,4 @@
-# Portfolio - Version 1
-Patrick Ail B. Bandola - Portfolio using Bootstrap
+# Portfolio
+Patrick Ail B. Bandola - Portfolio Version 1
+
+This website is developed using HTML, CSS, JavaScript and Bootstrap
