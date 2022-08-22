@@ -257,20 +257,6 @@
       </div>
     </section>
 
-    <!-- Newsletter -->
-    <!-- <section class="bg-primary text-light p-5">
-      <div class="container">
-        <div class="d-md-flex justify-content-between align-items-center">
-          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
-
-          <div class="input-group news-input">
-            <input type="text" class="form-control" placeholder="pbandola06@gmail.com" />
-            <button class="btn btn-dark btn-lg" type="button">Submit</button>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- Boxes -->
     <section id="project" class="p-5">
       <div class="container">
@@ -286,7 +272,7 @@
                 <p class="card-text">
                   Record and Billing Management System for Kitland Construction Services (Capstone Project)
                 </p>
-                <a href="#" class="btn btn-primary">Visit Website</a>
+                <a href="http://contrive.epizy.com/" target="blank" class="btn btn-primary">Visit Website</a>
               </div>
             </div>
           </div>
@@ -296,11 +282,11 @@
                 <div class="h1 mb-3">
                   <i class="bi bi-person-square"></i>
                 </div>
-                <h3 class="card-title mb-3">ELMS</h3>
+                <h3 class="card-title mb-3">ECMS</h3>
                 <p class="card-text">
-                  Employee Leave Management System using PHP & MySQL (Personal Project)
+                  Evacuation Center Management System using PHP & MySQL (Personal Project)
                 </p>
-                <a href="#" class="btn btn-dark">Source Code</a>
+                <a href="https://github.com/bellefleur06/ECMS" target="blank" class="btn btn-dark">Source Code</a>
               </div>
             </div>
           </div>
@@ -310,11 +296,11 @@
                 <div class="h1 mb-3">
                   <i class="bi bi-people"></i>
                 </div>
-                <h3 class="card-title mb-3">ECMS</h3>
+                <h3 class="card-title mb-3">ELMS</h3>
                 <p class="card-text">
-                  Evacuation Center Management System using PHP & MySQL (Personal Project)
+                  Employee Leave Management System using PHP & MySQL (Personal Project)
                 </p>
-                <a href="#" class="btn btn-primary">Source Code</a>
+                <a href="https://github.com/bellefleur06/ELMS" target="blank" class="btn btn-primary">Source Code</a>
               </div>
             </div>
           </div>
@@ -328,41 +314,13 @@
                 <p class="card-text">
                   Patrick Ail B. Bandola -  Portfolio Version 1 using Bootstrap (Personal Project)
                 </p>
-                <a href="#" class="btn btn-dark">Source Code</a>
+                <a href="https://github.com/bellefleur06/Portfolio-v1" target="blank" class="btn btn-dark">Source Code</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- <section id="learn" class="p-5 bg-dark text-light">
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md p-5">
-            <h2>Learn React</h2>
-            <p class="lead">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Similique deleniti possimus magnam corporis ratione facere!
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-              reiciendis eius autem eveniet mollitia, at asperiores suscipit
-              quae similique laboriosam iste minus placeat odit velit quos,
-              nulla architecto amet voluptates?
-            </p>
-            <a href="#" class="btn btn-light mt-3">
-              <i class="bi bi-chevron-right"></i> Read More
-            </a>
-          </div>
-          <div class="col-md">
-            <img src="img/react.svg" class="img-fluid" alt="" />
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    
+    </section>  
 
     <section id="techstacks" class="p-5 bg-dark">
       <div class="container">
@@ -482,16 +440,17 @@
                 <span class="fw-bold"> Personal Email:</span> pbandola06@gmail.com
               </li>
               <li class="list-group-item">
-                <span class="fw-bold">Github Account:</span>
-                
+                <span class="fw-bold">Github Account:</span> https://github.com/bellefleur06
               </li>
               <li class="list-group-item">
-                <span class="fw-bold">LinkedIn Account:</span> 
+                <span class="fw-bold">LinkedIn Account:</span> https://www.linkedin.com/in/patrick-ail-bandola-520284242/
               </li> 
             </ul>
           </div>
           <div class="col-md">
-            <div id="map"></div>
+            <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30922.802530579735!2d121.02359649852484!3d14.349127081311128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d0d6c63526c5%3A0xd6e9ae89984e851e!2sSan%20Pedro%2C%20Laguna!5e0!3m2!1sen!2sph!4v1661152612832!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -529,20 +488,20 @@
           </div>
           <div class="modal-body">
             <p class="lead">Fill out this form and I will get back to you.</p>
-            <form method="post">
+            <form onsubmit="Mail(); reset(); return false;">
               <div class="mb-3">
                 <label for="name" class="col-form-label">
                   Name:
                 </label>
-                <input type="text" class="form-control" id="name" required/>
+                <input type="text" class="form-control" id="name"/>
               </div>
               <div class="mb-3">
                 <label for="email" class="col-form-label">Email:</label>
-                <input type="email" class="form-control" id="email" required/>
+                <input type="email" class="form-control" id="email"/>
               </div>
               <div class="mb-3">
                 <label for="message" class="col-form-label">Message:</label>
-                <textarea class="form-control" id="message" style="height:110px" required></textarea>
+                <textarea class="form-control" id="message" style="height:110px"></textarea>
               </div>
           </div>
           <div class="modal-footer">
@@ -565,7 +524,30 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script>
+      function Mail(){
+
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let message = document.getElementById("message").value;
+        
+        Email.send({
+          SecureToken: "79a570fe-2676-4e0d-8efe-a9d5dc8eea53",
+          To : 'pbandola06@gmail.com',
+          From : "pbandola06@gmail.com",
+          Subject : "Email From Portfolio Contact Form",
+          Body : "Name: " + name + "<br/><br/> Email: " + email + "<br/><br/> Message: " + message
+      }).then(
+        message => alert("Thank you for sending your message. I will get back to you as soon as possible.")
+      );
+      }
+    </script>
+    
+    <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
 
     <script>
       mapboxgl.accessToken =
@@ -573,9 +555,9 @@
       var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-71.060982, 42.35725],
+        center: [14.3488961, 121.0392436],
         zoom: 18,
       })
-    </script>
+    </script> -->
   </body>
 </html>
